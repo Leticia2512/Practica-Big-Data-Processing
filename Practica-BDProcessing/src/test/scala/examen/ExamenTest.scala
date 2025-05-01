@@ -147,12 +147,12 @@ class ExamenTest extends TestInit {
 
   "La función IngresoTotalProducto" should "calcular los ingresos totales por producto" in {
 
-    val inputPath = "/Users/leticm03/BD15/Big Data Processing/Practica-BDProcessing/src/test/resources/ventas.csv"
+    val inputPath = "src/test/resources/ventas.csv"
     val dfVentas = readCSV(inputPath)
 
-    calcularIngresoTotal(dfVentas, "/Users/leticm03/BD15/Big Data Processing/Practica-BDProcessing/src/test/resources/ventas.csv")
+    calcularIngresoTotal(dfVentas, inputPath)
 
-    val outputPath = "/Users/leticm03/BD15/Big Data Processing/Practica-BDProcessing/src/test/resources/ventas2.csv"
+    val outputPath = "src/test/resources/ventas2.csv"
 
     val resultadoObtenido = readCSV(outputPath)
 
