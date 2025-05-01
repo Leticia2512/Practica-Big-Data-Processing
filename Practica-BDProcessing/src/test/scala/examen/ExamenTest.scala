@@ -150,7 +150,7 @@ class ExamenTest extends TestInit {
     val inputPath = "src/test/resources/ventas.csv"
     val dfVentas = readCSV(inputPath)
 
-    calcularIngresoTotal(dfVentas, inputPath)
+    calcularIngresoTotal(dfVentas, "src/test/resources/ventas.csv")
 
     val outputPath = "src/test/resources/ventas2.csv"
 
