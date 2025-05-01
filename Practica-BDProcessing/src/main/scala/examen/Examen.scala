@@ -92,7 +92,7 @@ object Examen {
       .option("header", "true")
       .option("inferSchema", "true")
       .option("delimiter", delimiter)
-      .csv(filePath)
+      .csv(inputPath)
   }
 
   def calcularIngresoTotal(venta: DataFrame, outputPath: String): Unit = {
