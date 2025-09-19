@@ -1,5 +1,6 @@
-# Practica Módulo Big Data Processing
-### Bootcamp Big Data, Machine Learning & IA_Keepcoding
+# Procesamiento Distribuido de Datos con Apache Spark y Scala
+
+Módulo Big Data Processing - Bootcamp KeepCoding
 ___
 
 Este repositorio contiene el desarrollo de ejercicios de Big Data Processing que abordan conceptos clave del procesamiento distribuido de datos usando Apache Spark y Scala, tanto con DataFrames como con RDDs, aplicando técnicas de filtrado, agregación, joins, UDFs y procesamiento de archivos.
